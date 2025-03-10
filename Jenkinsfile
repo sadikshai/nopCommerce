@@ -1,5 +1,5 @@
 pipeline{
-    agent { label 'my-defined-label' }
+    agent { label 'Dotnet8' }
     options{
         timeout(time: 1, unit: 'HOURS') 
     }
